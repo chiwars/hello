@@ -13,8 +13,8 @@
           </block>
         </value>
         <next>
-          <block type="oled_drawtext" id="250">
-            <field name="TEXT">hello world</field>
+          <block type="oled_drawtext" id="399">
+            <field name="TEXT">NYAH IS A POO!!!</field>
           </block>
         </next>
       </block>
