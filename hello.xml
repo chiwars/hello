@@ -15,6 +15,25 @@
         <next>
           <block type="oled_drawtext" id="399">
             <field name="TEXT">NYAH IS A POO!!!</field>
+            <next>
+              <block type="oled_setcursor" id="408" inline="true">
+                <value name="STARTX">
+                  <block type="math_number" id="409">
+                    <field name="NUM">10</field>
+                  </block>
+                </value>
+                <value name="STARTY">
+                  <block type="math_number" id="410">
+                    <field name="NUM">30</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="oled_drawtext" id="419">
+                    <field name="TEXT">A REAL POO </field>
+                  </block>
+                </next>
+              </block>
+            </next>
           </block>
         </next>
       </block>
