@@ -59,7 +59,7 @@
                                 </value>
                                 <next>
                                   <block type="oled_drawtext" id="473">
-                                    <field name="TEXT">A  BIG POO</field>
+                                    <field name="TEXT">A  BIG POO!!!</field>
                                   </block>
                                 </next>
                               </block>
