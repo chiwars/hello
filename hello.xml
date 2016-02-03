@@ -1,22 +1,37 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="oled_cleardisplay" id="1095" x="99" y="81">
+  <block type="oled_cleardisplay" id="1164" x="158" y="58">
     <next>
-      <block type="movement_stutter" id="1071">
+      <block type="oled_setcursor" id="1175" inline="true">
+        <value name="STARTX">
+          <block type="math_number" id="1176">
+            <field name="NUM">10</field>
+          </block>
+        </value>
+        <value name="STARTY">
+          <block type="math_number" id="1183">
+            <field name="NUM">10</field>
+          </block>
+        </value>
         <next>
-          <block type="oled_setcursor" id="1105" inline="true">
-            <value name="STARTX">
-              <block type="math_number" id="1115">
-                <field name="NUM">4</field>
-              </block>
-            </value>
-            <value name="STARTY">
-              <block type="math_number" id="1116">
-                <field name="NUM">10</field>
-              </block>
-            </value>
+          <block type="oled_drawtext" id="1208">
+            <field name="TEXT">999 * 999 =</field>
             <next>
-              <block type="oled_drawtext" id="1131">
-                <field name="TEXT">I CAN`T STOP S-S-SHAKING</field>
+              <block type="oled_drawnumber" id="1253" inline="true">
+                <value name="NUMBER">
+                  <block type="math_arithmetic" id="1263" inline="true">
+                    <field name="OP">MULTIPLY</field>
+                    <value name="A">
+                      <block type="math_number" id="1270">
+                        <field name="NUM">999</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="math_number" id="1271">
+                        <field name="NUM">999</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
               </block>
             </next>
           </block>
