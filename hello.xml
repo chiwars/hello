@@ -1,5 +1,19 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="oled_drawtext" id="587" x="173" y="107">
-    <field name="TEXT">i AM CRAZY!!!!!!!!!!!1</field>
+  <block type="oled_setcursor" id="596" inline="true" x="175" y="72">
+    <value name="STARTX">
+      <block type="math_number" id="603">
+        <field name="NUM">10</field>
+      </block>
+    </value>
+    <value name="STARTY">
+      <block type="math_number" id="604">
+        <field name="NUM">10</field>
+      </block>
+    </value>
+    <next>
+      <block type="oled_drawtext" id="587">
+        <field name="TEXT">i AM CRAZY!!!!!!!!!!!1</field>
+      </block>
+    </next>
   </block>
 </xml>
