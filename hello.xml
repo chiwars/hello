@@ -12,7 +12,7 @@
     </value>
     <next>
       <block type="oled_drawtext" id="587">
-        <field name="TEXT">i AM CRAZY!!!!!!!!!!!1</field>
+        <field name="TEXT">I AM CRAZY</field>
       </block>
     </next>
   </block>
