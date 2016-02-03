@@ -6,5 +6,8 @@
         <field name="NUM">0</field>
       </block>
     </value>
+    <next>
+      <block type="oled_cleardisplay" id="578"></block>
+    </next>
   </block>
 </xml>
