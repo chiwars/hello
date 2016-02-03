@@ -1,37 +1,27 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="oled_cleardisplay" id="634" x="175" y="41">
+  <block type="oled_cleardisplay" id="765" x="79" y="58">
     <next>
-      <block type="oled_setcursor" id="596" inline="true">
+      <block type="oled_setcursor" id="782" inline="true">
         <value name="STARTX">
-          <block type="math_number" id="603">
-            <field name="NUM">10</field>
+          <block type="math_number" id="791">
+            <field name="NUM">20</field>
           </block>
         </value>
         <value name="STARTY">
-          <block type="math_number" id="604">
-            <field name="NUM">10</field>
+          <block type="math_number" id="792">
+            <field name="NUM">50</field>
           </block>
         </value>
         <next>
-          <block type="oled_drawtext" id="587">
-            <field name="TEXT">I AM CRAZY</field>
+          <block type="oled_drawtext" id="807">
+            <field name="TEXT">I AM NYAH</field>
             <next>
-              <block type="oled_setcursor" id="643" inline="true">
-                <value name="STARTX">
-                  <block type="math_number" id="644">
-                    <field name="NUM">10</field>
+              <block type="robot_delay" id="860" inline="true">
+                <value name="DELAY">
+                  <block type="math_number" id="861">
+                    <field name="NUM">5000</field>
                   </block>
                 </value>
-                <value name="STARTY">
-                  <block type="math_number" id="645">
-                    <field name="NUM">20</field>
-                  </block>
-                </value>
-                <next>
-                  <block type="oled_drawtext" id="646">
-                    <field name="TEXT">I AM NYAH</field>
-                  </block>
-                </next>
               </block>
             </next>
           </block>
