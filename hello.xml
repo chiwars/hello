@@ -15,16 +15,6 @@
         <next>
           <block type="oled_drawtext" id="250">
             <field name="TEXT">hello world</field>
-            <next>
-              <block type="oled_linerect" id="283">
-                <field name="OBJECT">LINE</field>
-                <next>
-                  <block type="oled_drawtext" id="274">
-                    <field name="TEXT">hello world</field>
-                  </block>
-                </next>
-              </block>
-            </next>
           </block>
         </next>
       </block>
