@@ -14,7 +14,7 @@
         </value>
         <next>
           <block type="oled_drawtext" id="370">
-            <field name="TEXT">once upon a time there was a</field>
+            <field name="TEXT">once upon a time </field>
           </block>
         </next>
       </block>
