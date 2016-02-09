@@ -1,114 +1,20 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="oled_cleardisplay" id="1" x="196" y="126">
+  <block type="oled_cleardisplay" id="312" x="110" y="14">
     <next>
-      <block type="oled_setcursor" id="2" inline="true">
+      <block type="oled_setcursor" id="359" inline="true">
         <value name="STARTX">
-          <block type="math_number" id="3">
+          <block type="math_number" id="360">
             <field name="NUM">10</field>
           </block>
         </value>
         <value name="STARTY">
-          <block type="math_number" id="4">
+          <block type="math_number" id="361">
             <field name="NUM">10</field>
           </block>
         </value>
         <next>
-          <block type="oled_drawtext" id="5">
-            <field name="TEXT">999 - 1000 =</field>
-            <next>
-              <block type="oled_drawnumber" id="6" inline="true">
-                <value name="NUMBER">
-                  <block type="math_arithmetic" id="7" inline="true">
-                    <field name="OP">MINUS</field>
-                    <value name="A">
-                      <block type="math_number" id="8">
-                        <field name="NUM">999</field>
-                      </block>
-                    </value>
-                    <value name="B">
-                      <block type="math_number" id="9">
-                        <field name="NUM">1000</field>
-                      </block>
-                    </value>
-                  </block>
-                </value>
-                <next>
-                  <block type="robot_delay" id="17" inline="true">
-                    <value name="DELAY">
-                      <block type="math_number" id="24">
-                        <field name="NUM">5000</field>
-                      </block>
-                    </value>
-                    <next>
-                      <block type="oled_cleardisplay" id="54">
-                        <next>
-                          <block type="led_select" id="63" inline="true">
-                            <field name="ACTION">OFF</field>
-                            <value name="LED">
-                              <block type="math_number" id="64">
-                                <field name="NUM">4</field>
-                              </block>
-                            </value>
-                            <next>
-                              <block type="led_select" id="65" inline="true">
-                                <field name="ACTION">OFF</field>
-                                <value name="LED">
-                                  <block type="math_number" id="66">
-                                    <field name="NUM">1</field>
-                                  </block>
-                                </value>
-                                <next>
-                                  <block type="led_select" id="67" inline="true">
-                                    <field name="ACTION">OFF</field>
-                                    <value name="LED">
-                                      <block type="math_number" id="68">
-                                        <field name="NUM">2</field>
-                                      </block>
-                                    </value>
-                                    <next>
-                                      <block type="led_select" id="69" inline="true">
-                                        <field name="ACTION">OFF</field>
-                                        <value name="LED">
-                                          <block type="math_number" id="70">
-                                            <field name="NUM">3</field>
-                                          </block>
-                                        </value>
-                                        <next>
-                                          <block type="led_select" id="71" inline="true">
-                                            <field name="ACTION">OFF</field>
-                                            <value name="LED">
-                                              <block type="math_number" id="72">
-                                                <field name="NUM">5</field>
-                                              </block>
-                                            </value>
-                                            <next>
-                                              <block type="robot_delay" id="94" inline="true">
-                                                <value name="DELAY">
-                                                  <block type="math_number" id="95">
-                                                    <field name="NUM">5000</field>
-                                                  </block>
-                                                </value>
-                                                <next>
-                                                  <block type="movement_stop" id="121"></block>
-                                                </next>
-                                              </block>
-                                            </next>
-                                          </block>
-                                        </next>
-                                      </block>
-                                    </next>
-                                  </block>
-                                </next>
-                              </block>
-                            </next>
-                          </block>
-                        </next>
-                      </block>
-                    </next>
-                  </block>
-                </next>
-              </block>
-            </next>
+          <block type="oled_drawtext" id="370">
+            <field name="TEXT">once upon a time there was a</field>
           </block>
         </next>
       </block>
