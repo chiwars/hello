@@ -43,8 +43,27 @@
                           </block>
                         </value>
                         <next>
-                          <block type="oled_drawtext" id="378">
+                          <block type="oled_drawtext" id="382">
                             <field name="TEXT">Romeo and a cat named</field>
+                            <next>
+                              <block type="oled_setcursor" id="379" inline="true">
+                                <value name="STARTX">
+                                  <block type="math_number" id="380">
+                                    <field name="NUM">30</field>
+                                  </block>
+                                </value>
+                                <value name="STARTY">
+                                  <block type="math_number" id="381">
+                                    <field name="NUM">50</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="oled_drawtext" id="383">
+                                    <field name="TEXT">Othello</field>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
                           </block>
                         </next>
                       </block>
