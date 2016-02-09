@@ -43,7 +43,7 @@
                       <block type="oled_cleardisplay" id="54">
                         <next>
                           <block type="led_select" id="63" inline="true">
-                            <field name="ACTION">ON</field>
+                            <field name="ACTION">OFF</field>
                             <value name="LED">
                               <block type="math_number" id="64">
                                 <field name="NUM">4</field>
@@ -51,7 +51,7 @@
                             </value>
                             <next>
                               <block type="led_select" id="65" inline="true">
-                                <field name="ACTION">ON</field>
+                                <field name="ACTION">OFF</field>
                                 <value name="LED">
                                   <block type="math_number" id="66">
                                     <field name="NUM">1</field>
@@ -59,7 +59,7 @@
                                 </value>
                                 <next>
                                   <block type="led_select" id="67" inline="true">
-                                    <field name="ACTION">ON</field>
+                                    <field name="ACTION">OFF</field>
                                     <value name="LED">
                                       <block type="math_number" id="68">
                                         <field name="NUM">2</field>
@@ -67,7 +67,7 @@
                                     </value>
                                     <next>
                                       <block type="led_select" id="69" inline="true">
-                                        <field name="ACTION">ON</field>
+                                        <field name="ACTION">OFF</field>
                                         <value name="LED">
                                           <block type="math_number" id="70">
                                             <field name="NUM">3</field>
@@ -75,7 +75,7 @@
                                         </value>
                                         <next>
                                           <block type="led_select" id="71" inline="true">
-                                            <field name="ACTION">ON</field>
+                                            <field name="ACTION">OFF</field>
                                             <value name="LED">
                                               <block type="math_number" id="72">
                                                 <field name="NUM">5</field>
