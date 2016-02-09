@@ -14,7 +14,7 @@
         </value>
         <next>
           <block type="oled_drawtext" id="5">
-            <field name="TEXT">999 * 999 =</field>
+            <field name="TEXT">999 - 999 =</field>
             <next>
               <block type="oled_drawnumber" id="6" inline="true">
                 <value name="NUMBER">
@@ -27,7 +27,7 @@
                     </value>
                     <value name="B">
                       <block type="math_number" id="9">
-                        <field name="NUM">999</field>
+                        <field name="NUM">1000</field>
                       </block>
                     </value>
                   </block>
