@@ -15,6 +15,25 @@
         <next>
           <block type="oled_drawtext" id="370">
             <field name="TEXT">once upon a time </field>
+            <next>
+              <block type="oled_setcursor" id="371" inline="true">
+                <value name="STARTX">
+                  <block type="math_number" id="372">
+                    <field name="NUM">20</field>
+                  </block>
+                </value>
+                <value name="STARTY">
+                  <block type="math_number" id="373">
+                    <field name="NUM">4</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="oled_drawtext" id="374">
+                    <field name="TEXT">there was a cat named</field>
+                  </block>
+                </next>
+              </block>
+            </next>
           </block>
         </next>
       </block>
