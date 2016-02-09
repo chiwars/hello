@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="oled_cleardisplay" id="1" x="158" y="58">
+  <block type="oled_cleardisplay" id="1" x="196" y="126">
     <next>
       <block type="oled_setcursor" id="2" inline="true">
         <value name="STARTX">
@@ -32,6 +32,69 @@
                     </value>
                   </block>
                 </value>
+                <next>
+                  <block type="robot_delay" id="17" inline="true">
+                    <value name="DELAY">
+                      <block type="math_number" id="24">
+                        <field name="NUM">5000</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="oled_cleardisplay" id="54">
+                        <next>
+                          <block type="led_select" id="63" inline="true">
+                            <field name="ACTION">ON</field>
+                            <value name="LED">
+                              <block type="math_number" id="64">
+                                <field name="NUM">4</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="led_select" id="65" inline="true">
+                                <field name="ACTION">ON</field>
+                                <value name="LED">
+                                  <block type="math_number" id="66">
+                                    <field name="NUM">1</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="led_select" id="67" inline="true">
+                                    <field name="ACTION">ON</field>
+                                    <value name="LED">
+                                      <block type="math_number" id="68">
+                                        <field name="NUM">2</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="led_select" id="69" inline="true">
+                                        <field name="ACTION">ON</field>
+                                        <value name="LED">
+                                          <block type="math_number" id="70">
+                                            <field name="NUM">3</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="led_select" id="71" inline="true">
+                                            <field name="ACTION">ON</field>
+                                            <value name="LED">
+                                              <block type="math_number" id="72">
+                                                <field name="NUM">5</field>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
               </block>
             </next>
           </block>
