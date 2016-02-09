@@ -60,6 +60,47 @@
                                 <next>
                                   <block type="oled_drawtext" id="383">
                                     <field name="TEXT">Othello</field>
+                                    <next>
+                                      <block type="robot_delay" id="408" inline="true">
+                                        <value name="DELAY">
+                                          <block type="math_number" id="409">
+                                            <field name="NUM">5000</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="robot_delay" id="410" inline="true">
+                                            <value name="DELAY">
+                                              <block type="math_number" id="411">
+                                                <field name="NUM">5000</field>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="oled_cleardisplay" id="412">
+                                                <next>
+                                                  <block type="oled_setcursor" id="413" inline="true">
+                                                    <value name="STARTX">
+                                                      <block type="math_number" id="414">
+                                                        <field name="NUM">10</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="STARTY">
+                                                      <block type="math_number" id="415">
+                                                        <field name="NUM">10</field>
+                                                      </block>
+                                                    </value>
+                                                    <next>
+                                                      <block type="oled_drawtext" id="416">
+                                                        <field name="TEXT">and they were the cutest cats ever</field>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
                                   </block>
                                 </next>
                               </block>
