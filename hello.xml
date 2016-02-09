@@ -30,6 +30,25 @@
                 <next>
                   <block type="oled_drawtext" id="374">
                     <field name="TEXT">there was a cat named</field>
+                    <next>
+                      <block type="oled_setcursor" id="375" inline="true">
+                        <value name="STARTX">
+                          <block type="math_number" id="376">
+                            <field name="NUM">2</field>
+                          </block>
+                        </value>
+                        <value name="STARTY">
+                          <block type="math_number" id="377">
+                            <field name="NUM">30</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="oled_drawtext" id="378">
+                            <field name="TEXT">Romeo and a cat named</field>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
                   </block>
                 </next>
               </block>
