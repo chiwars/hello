@@ -99,7 +99,7 @@
                                                           <block type="oled_drawtext" id="455">
                                                             <field name="TEXT"></field>
                                                             <next>
-                                                              <block type="multimedia_stopupdate" id="421"></block>
+                                                              <block type="multimedia_doupdate" id="504"></block>
                                                             </next>
                                                           </block>
                                                         </next>
