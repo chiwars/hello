@@ -1,25 +1,106 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="oled_cleardisplay" id="761" x="-213" y="201">
-    <next>
-      <block type="oled_setcursor" id="862" inline="true">
-        <value name="STARTX">
-          <block type="math_number" id="864">
-            <field name="NUM">3</field>
-          </block>
-        </value>
-        <value name="STARTY">
-          <block type="math_number" id="865">
-            <field name="NUM">10</field>
-          </block>
-        </value>
+  <block type="controls_whileUntil" id="69" inline="false" x="-288" y="70">
+    <field name="MODE">UNTIL</field>
+    <value name="NUMBER">
+      <block type="sensor_button" id="102">
+        <field name="OBJECT">ENTER</field>
+      </block>
+    </value>
+    <statement name="DO">
+      <block type="oled_cleardisplay" id="1">
         <next>
-          <block type="oled_drawnumber" id="844" inline="true">
-            <value name="NUMBER">
-              <block type="math_random" id="661"></block>
+          <block type="oled_setcursor" id="2" inline="true">
+            <value name="STARTX">
+              <block type="math_number" id="3">
+                <field name="NUM">63</field>
+              </block>
             </value>
+            <value name="STARTY">
+              <block type="math_number" id="4">
+                <field name="NUM">0</field>
+              </block>
+            </value>
+            <next>
+              <block type="oled_drawnumber" id="13" inline="true">
+                <value name="NUMBER">
+                  <block type="sensor_button" id="28">
+                    <field name="OBJECT">UP</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="oled_setcursor" id="29" inline="true">
+                    <value name="STARTX">
+                      <block type="math_number" id="30">
+                        <field name="NUM">0</field>
+                      </block>
+                    </value>
+                    <value name="STARTY">
+                      <block type="math_number" id="31">
+                        <field name="NUM">20</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="oled_drawnumber" id="32" inline="true">
+                        <value name="NUMBER">
+                          <block type="sensor_button" id="33">
+                            <field name="OBJECT">LEFT</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="oled_setcursor" id="34" inline="true">
+                            <value name="STARTX">
+                              <block type="math_number" id="35">
+                                <field name="NUM">110</field>
+                              </block>
+                            </value>
+                            <value name="STARTY">
+                              <block type="math_number" id="36">
+                                <field name="NUM">20</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="oled_drawnumber" id="37" inline="true">
+                                <value name="NUMBER">
+                                  <block type="sensor_button" id="38">
+                                    <field name="OBJECT">RIGHT</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="oled_setcursor" id="39" inline="true">
+                                    <value name="STARTX">
+                                      <block type="math_number" id="40">
+                                        <field name="NUM">63</field>
+                                      </block>
+                                    </value>
+                                    <value name="STARTY">
+                                      <block type="math_number" id="41">
+                                        <field name="NUM">50</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="oled_drawnumber" id="42" inline="true">
+                                        <value name="NUMBER">
+                                          <block type="sensor_button" id="43">
+                                            <field name="OBJECT">DOWN</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
           </block>
         </next>
       </block>
-    </next>
+    </statement>
   </block>
 </xml>
