@@ -1,10 +1,24 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="oled_cleardisplay" id="761" x="-213" y="201">
     <next>
-      <block type="oled_drawnumber" id="844" inline="true">
-        <value name="NUMBER">
-          <block type="math_random" id="661"></block>
+      <block type="oled_setcursor" id="862" inline="true">
+        <value name="STARTX">
+          <block type="math_number" id="864">
+            <field name="NUM">3</field>
+          </block>
         </value>
+        <value name="STARTY">
+          <block type="math_number" id="865">
+            <field name="NUM">10</field>
+          </block>
+        </value>
+        <next>
+          <block type="oled_drawnumber" id="844" inline="true">
+            <value name="NUMBER">
+              <block type="math_random" id="661"></block>
+            </value>
+          </block>
+        </next>
       </block>
     </next>
   </block>
