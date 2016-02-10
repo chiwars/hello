@@ -54,54 +54,54 @@
                                 <next>
                                   <block type="multimedia_doupdate" id="16">
                                     <next>
-                                      <block type="movement_leftmotor" id="50" inline="true">
+                                      <block type="movement_leftmotor" id="17" inline="true">
                                         <value name="MOVLEFT">
-                                          <block type="math_arithmetic" id="63" inline="true">
+                                          <block type="math_arithmetic" id="18" inline="true">
                                             <field name="OP">DIVIDE</field>
                                             <value name="A">
-                                              <block type="math_arithmetic" id="84" inline="true">
+                                              <block type="math_arithmetic" id="19" inline="true">
                                                 <field name="OP">MULTIPLY</field>
                                                 <value name="A">
-                                                  <block type="sensor_object" id="91">
+                                                  <block type="sensor_object" id="20">
                                                     <field name="OBJECT">RIGHTFRONT</field>
                                                   </block>
                                                 </value>
                                                 <value name="B">
-                                                  <block type="sensor_object" id="92">
+                                                  <block type="sensor_object" id="21">
                                                     <field name="OBJECT">RIGHTFRONT</field>
                                                   </block>
                                                 </value>
                                               </block>
                                             </value>
                                             <value name="B">
-                                              <block type="math_number" id="77">
+                                              <block type="math_number" id="22">
                                                 <field name="NUM">100</field>
                                               </block>
                                             </value>
                                           </block>
                                         </value>
                                         <next>
-                                          <block type="movement_rightmotor" id="102" inline="true">
+                                          <block type="movement_rightmotor" id="23" inline="true">
                                             <value name="MOVRIGHT">
-                                              <block type="math_arithmetic" id="103" inline="true">
+                                              <block type="math_arithmetic" id="24" inline="true">
                                                 <field name="OP">DIVIDE</field>
                                                 <value name="A">
-                                                  <block type="math_arithmetic" id="104" inline="true">
+                                                  <block type="math_arithmetic" id="25" inline="true">
                                                     <field name="OP">MULTIPLY</field>
                                                     <value name="A">
-                                                      <block type="sensor_object" id="105">
+                                                      <block type="sensor_object" id="26">
                                                         <field name="OBJECT">LEFTFRONT</field>
                                                       </block>
                                                     </value>
                                                     <value name="B">
-                                                      <block type="sensor_object" id="106">
+                                                      <block type="sensor_object" id="27">
                                                         <field name="OBJECT">LEFTFRONT</field>
                                                       </block>
                                                     </value>
                                                   </block>
                                                 </value>
                                                 <value name="B">
-                                                  <block type="math_number" id="107">
+                                                  <block type="math_number" id="28">
                                                     <field name="NUM">100</field>
                                                   </block>
                                                 </value>
