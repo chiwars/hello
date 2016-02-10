@@ -120,6 +120,9 @@
                                                                     <next>
                                                                       <block type="oled_drawtext" id="510">
                                                                         <field name="TEXT"></field>
+                                                                        <next>
+                                                                          <block type="multimedia_doupdate" id="504"></block>
+                                                                        </next>
                                                                       </block>
                                                                     </next>
                                                                   </block>
@@ -155,5 +158,4 @@
       </block>
     </statement>
   </block>
-  <block type="multimedia_doupdate" id="504" x="210" y="481"></block>
 </xml>
