@@ -57,7 +57,7 @@
                                       <block type="movement_setmotors" id="557" inline="true">
                                         <value name="BOTHMOVLEFT">
                                           <block type="sensor_object" id="606">
-                                            <field name="OBJECT">LEFTFRONT</field>
+                                            <field name="OBJECT">RIGHTFRONT</field>
                                           </block>
                                         </value>
                                         <value name="BOTHMOVRIGHT">
