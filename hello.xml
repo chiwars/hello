@@ -83,5 +83,10 @@
         </next>
       </block>
     </statement>
+    <next>
+      <block type="multimedia_displaybmp" id="811">
+        <field name="BMP">hi my name jgrhgei</field>
+      </block>
+    </next>
   </block>
 </xml>
